@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.navigation {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    background-color: #1b1a19; 
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.ul-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pgheader {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.bg {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.stol_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: brightness(0.3);
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    background: #FF9800;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.hero_text {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.hero_title {
+    margin-bottom: 15px;
+}
+
+.header_logo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.footer {
+    padding: 30px 0;
+    background: var(--block-bg);
+    margin-top: auto;
+    background-color: #1b1a19;
+}
+
+.pagelist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.soc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soc li {
+    margin: 10px;
+}
+
+  
+.soc a {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ull {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.naz {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact {
+    margin-bottom: 80px;
+    height: 100px;
+}
+
+.header_logoo {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.frs {
+    color: black;
+    background-color: white;
+}
+
+.ufr {
+    padding: 0px 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.icon {
+    width: 30%;
+}
+
+.h3title {
+    margin-bottom: 15px;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.frtext {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.fr {
+  text-align: center;
+  border: 2px;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.cnt {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.htitle {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.ach {
+    color: black;
+    background-color: white;
+}
+
+.iconn {
+    width: 80%;
+}
+
+.otziv {
+    color: black;
+    background-color: white;
+}
+
+.frr {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.icons {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.rewb {
+    position: absolute;
+    bottom: 180px;
+    left: 10px;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 12px;
+}
+.no {
+    background-color: red;
+}
+
+.ok {
+    background-color: rgb(9, 255, 0);
+}
+
+.textb {
+    padding: 15px;
+}
+
+.rew {
+    position: relative;
+}
+
+.rewtitle {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.ottext {
+    font-size: 20px;
+}
+
+.h-2 {
+    margin-top: 150px;
+    color: black;
+}
+
+.h1-2 {
+    margin-bottom: 15px;
+}
+
+.p1-2 {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.frtext {
+    color: black;
+}
+
+.h33title {
+    color: black;
+    font-size: 35px;
+}
+
+.h1-22 {
+    color: black;
+    margin-top: 10px;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 100px;
+}
+
+.cntt {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 100px;
+}
+
+.p1-222 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: black;
+}
